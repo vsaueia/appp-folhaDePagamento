@@ -1,10 +1,9 @@
-package br.com.folhadepagamento.empregado;
+package br.com.folhadepagamento.servico;
 
-import br.com.folhadepagamento.pagamento.AgendamentoQuinzenal;
-import br.com.folhadepagamento.pagamento.ClassificacaoComissionado;
-import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
-import br.com.folhadepagamento.pagamento.interfaces.ClassificacaoDePagamento;
-import br.com.folhadepagamento.transacao.TransacaoDeAdicionarEmpregadoAssalariado;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoQuinzenal;
+import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoComissionado;
+import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
 
 import java.math.BigDecimal;
 

@@ -1,11 +1,11 @@
-package br.com.folhadepagamento.transacao;
+package br.com.folhadepagamento.servico;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
 import br.com.folhadepagamento.empregado.Empregado;
-import br.com.folhadepagamento.pagamento.PagamentoDiretoAoEmpregado;
-import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
-import br.com.folhadepagamento.pagamento.interfaces.ClassificacaoDePagamento;
-import br.com.folhadepagamento.pagamento.interfaces.MetodoDePagamento;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
+import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
+import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
+import br.com.folhadepagamento.pagamento.metodo.PagamentoDiretoAoEmpregado;
 
 public abstract class TransacaoDeAdicionarEmpregadoPorHora implements Transacao {
     private int empregadoId;

@@ -1,11 +1,11 @@
 package br.com.folhadepagamento.empregado;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
-import br.com.folhadepagamento.pagamento.AgendamentoSemanal;
-import br.com.folhadepagamento.pagamento.ClassificacaoPorHora;
-import br.com.folhadepagamento.pagamento.PagamentoDiretoAoEmpregado;
-import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
-import br.com.folhadepagamento.pagamento.interfaces.MetodoDePagamento;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoSemanal;
+import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoPorHora;
+import br.com.folhadepagamento.pagamento.metodo.PagamentoDiretoAoEmpregado;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
+import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
 import org.junit.Assert;
 import org.junit.Test;
 

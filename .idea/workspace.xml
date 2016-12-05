@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6006e12a-6b20-425e-b44a-32e7c36df53b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionado.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoQuinzenal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoComissionado.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoComissionado.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionadoTeste.java" />
+    <list default="true" id="6006e12a-6b20-425e-b44a-32e7c36df53b" name="Default" comment="Continuacao da Iteracao 1">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoAssalariado.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoComissionado.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHora.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoPorHora.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoMensal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoMensal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoQuinzenal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoQuinzenal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoSemanal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoSemanal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoAssalariado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoAssalariado.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoComissionado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoPorHora.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/PagamentoDiretoAoEmpregado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/PagamentoDiretoAoEmpregado.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/AgendamentoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoDePagamento.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/ClassificacaoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoDePagamento.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/MetodoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/MetodoDePagamento.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/Transacao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/Transacao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoAssalariado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoComissionado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoComissionado.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoPorHora.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoPorHora.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHora.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHora.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoMensal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoMensal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/AgendamentoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/AgendamentoDePagamento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/ClassificacaoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/ClassificacaoDePagamento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoAssalariado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoAssalariado.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariadoTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariadoTeste.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionadoTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionadoTeste.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.java" />
     </list>
     <ignored path="appp-folhaDePagamento.iws" />
@@ -37,52 +46,7 @@
     <favorites_list name="appp-folhaDePagamento" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Transacao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/Transacao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransacaoDeAdicionarEmpregadoAssalariado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoAssalariado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="35" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagamentoDiretoAoEmpregado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/PagamentoDiretoAoEmpregado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdicionarEmpregadoComissionado.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,6 +98,17 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoComissionado.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionadoTeste.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionado.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/modelo/AdicionarEmpregadoAssalariado.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/modelo/AdicionarEmpregadoComissionado.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/modelo/AdicionarEmpregadoPorHora.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/agendamento/AgendamentoSemanal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/agendamento/AgendamentoDePagamento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoDePagamento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoDePagamento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/PagamentoDiretoAoEmpregado.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoPorHora.java" />
       </list>
     </option>
   </component>
@@ -324,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transacao" />
+              <option name="myItemId" value="servico" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,6 +332,10 @@
               <option name="myItemId" value="pagamento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -388,7 +367,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="classificacao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appp-folhaDePagamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appp-folhaDePagamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="folhadepagamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agendamento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1016,8 +1029,16 @@
       <option name="presentableId" value="Default" />
       <updated>1480332771418</updated>
       <workItem from="1480332775125" duration="2347000" />
-      <workItem from="1480682607972" duration="8441000" />
+      <workItem from="1480682607972" duration="8774000" />
     </task>
+    <task id="LOCAL-00001" summary="Continuacao da Iteracao 1">
+      <created>1480938152881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480938152881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1053,11 +1074,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10788000" />
+    <option name="totallyTimeSpent" value="11121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1069,7 +1090,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27941176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27941176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1120,6 +1141,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Continuacao da Iteracao 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continuacao da Iteracao 1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -1163,22 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/AgendamentoDePagamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoMensal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1215,104 +1224,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/MetodoDePagamento.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/MetodoDePagamento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoPorHora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoPorHora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoSemanal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoAssalariado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/interfaces/ClassificacaoDePagamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1345,70 +1260,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/ClassificacaoComissionado.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoComissionado.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/AgendamentoQuinzenal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoAssalariado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoComissionado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding>
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoPorHora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/Transacao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoMensal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoAssalariado.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoQuinzenal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="35" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/PagamentoDiretoAoEmpregado.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoSemanal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionado.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoDePagamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoAssalariado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoDePagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/PagamentoDiretoAoEmpregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/Transacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoComissionado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoPorHora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>

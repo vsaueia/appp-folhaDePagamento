@@ -1,6 +1,4 @@
-package br.com.folhadepagamento.pagamento;
-
-import br.com.folhadepagamento.pagamento.interfaces.ClassificacaoDePagamento;
+package br.com.folhadepagamento.pagamento.classificacao;
 
 import java.math.BigDecimal;
 

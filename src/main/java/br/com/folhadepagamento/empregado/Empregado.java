@@ -1,8 +1,8 @@
 package br.com.folhadepagamento.empregado;
 
-import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
-import br.com.folhadepagamento.pagamento.interfaces.ClassificacaoDePagamento;
-import br.com.folhadepagamento.pagamento.interfaces.MetodoDePagamento;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
+import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
+import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
 
 public class Empregado {
     private int empregadoId;

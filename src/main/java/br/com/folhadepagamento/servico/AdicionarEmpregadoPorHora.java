@@ -1,10 +1,9 @@
-package br.com.folhadepagamento.empregado;
+package br.com.folhadepagamento.servico;
 
-import br.com.folhadepagamento.pagamento.AgendamentoSemanal;
-import br.com.folhadepagamento.pagamento.ClassificacaoPorHora;
-import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
-import br.com.folhadepagamento.pagamento.interfaces.ClassificacaoDePagamento;
-import br.com.folhadepagamento.transacao.TransacaoDeAdicionarEmpregadoPorHora;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
+import br.com.folhadepagamento.pagamento.agendamento.AgendamentoSemanal;
+import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
+import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoPorHora;
 
 import java.math.BigDecimal;
 

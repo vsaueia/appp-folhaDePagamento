@@ -1,4 +1,4 @@
-package br.com.folhadepagamento.transacao;
+package br.com.folhadepagamento.servico;
 
 public interface Transacao {
     void executar();
