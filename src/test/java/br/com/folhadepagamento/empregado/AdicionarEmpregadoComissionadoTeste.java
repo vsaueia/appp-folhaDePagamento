@@ -1,9 +1,7 @@
 package br.com.folhadepagamento.empregado;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
-import br.com.folhadepagamento.pagamento.AgendamentoSemanal;
-import br.com.folhadepagamento.pagamento.ClassificacaoPorHora;
-import br.com.folhadepagamento.pagamento.PagamentoDiretoAoEmpregado;
+import br.com.folhadepagamento.pagamento.*;
 import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.interfaces.MetodoDePagamento;
 import org.junit.Assert;
@@ -15,23 +13,24 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertTrue;
 
-public class AdicionarEmpregadoPorHoraTeste {
-    @Test
-    public void deve_adicionar_um_empregado_que_recebe_por_hora() {
-        int empregadoId = 1;
+public class AdicionarEmpregadoComissionadoTeste {
 
-        AdicionarEmpregadoPorHora transacao =
-                new AdicionarEmpregadoPorHora(empregadoId, "Bob", "Home", BigDecimal.valueOf(25));
+    @Test
+    public void deve_adicionar_empregado_comissionado() {
+        int empregadoId = 2;
+
+        AdicionarEmpregadoComissionado transacao =
+                new AdicionarEmpregadoComissionado(empregadoId, "Bob", "Home", BigDecimal.valueOf(2500));
         transacao.executar();
 
         Empregado empregado = FolhaDePagamentoDatabase.buscarEmpregado(empregadoId);
-        ClassificacaoPorHora classificacaoDePagamento = (ClassificacaoPorHora) empregado.obterClassificacaoDePagamento();
+        ClassificacaoComissionado classificacaoDePagamento = (ClassificacaoComissionado) empregado.obterClassificacaoDePagamento();
         AgendamentoDePagamento agendamento = empregado.obterAgendamentoDePagamento();
         MetodoDePagamento metodoDePagamento = empregado.obterMetodoDePagamento();
 
         Assert.assertEquals("Bob", empregado.getNome());
-        assertThat(classificacaoDePagamento.obterValorPorHora(), is(BigDecimal.valueOf(25)));
-        assertTrue(agendamento instanceof AgendamentoSemanal);
+        assertThat(classificacaoDePagamento.obterSalarioFixo(), is(BigDecimal.valueOf(2500)));
+        assertTrue(agendamento instanceof AgendamentoQuinzenal);
         assertTrue(metodoDePagamento instanceof PagamentoDiretoAoEmpregado);
     }
 }

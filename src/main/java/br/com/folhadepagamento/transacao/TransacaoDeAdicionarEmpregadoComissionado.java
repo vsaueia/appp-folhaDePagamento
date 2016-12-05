@@ -7,12 +7,12 @@ import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.interfaces.ClassificacaoDePagamento;
 import br.com.folhadepagamento.pagamento.interfaces.MetodoDePagamento;
 
-public abstract class TransacaoDeAdicionarEmpregadoAssalariado implements Transacao {
+public abstract class TransacaoDeAdicionarEmpregadoComissionado implements Transacao {
     private int empregadoId;
     private String nome;
     private String endereco;
 
-    public TransacaoDeAdicionarEmpregadoAssalariado(int empresadoId, String nome, String endereco) {
+    public TransacaoDeAdicionarEmpregadoComissionado(int empresadoId, String nome, String endereco) {
         this.empregadoId = empresadoId;
         this.nome = nome;
         this.endereco = endereco;

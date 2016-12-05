@@ -1,7 +1,6 @@
 package br.com.folhadepagamento.empregado;
 
 import br.com.folhadepagamento.pagamento.AgendamentoSemanal;
-import br.com.folhadepagamento.pagamento.ClassificacaoAssalariado;
 import br.com.folhadepagamento.pagamento.ClassificacaoPorHora;
 import br.com.folhadepagamento.pagamento.interfaces.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.interfaces.ClassificacaoDePagamento;
