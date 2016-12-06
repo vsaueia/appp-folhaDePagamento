@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6006e12a-6b20-425e-b44a-32e7c36df53b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeDeletarEmpregado.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/DeletarEmpregadoTeste.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariado.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHora.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/AgendamentoMensal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/AgendamentoSemanal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/ClassificacaoAssalariado.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/ClassificacaoPorHora.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/PagamentoDiretoAoEmpregado.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/interfaces/AgendamentoDePagamento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/interfaces/ClassificacaoDePagamento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/pagamento/interfaces/MetodoDePagamento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/transacao/Transacao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoAssalariado.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/transacao/TransacaoDeAdicionarEmpregadoPorHora.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/Empregado.class" afterPath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/Empregado.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariadoTeste.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariadoTeste.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.class" afterPath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoComissionado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoComissionado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariadoTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariadoTeste.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionadoTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionadoTeste.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoPorHoraTeste.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/DeletarEmpregadoTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/DeletarEmpregadoTeste.java" />
     </list>
     <ignored path="appp-folhaDePagamento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +30,9 @@
       <file leaf-file-name="DeletarEmpregadoTeste.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/DeletarEmpregadoTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,9 +128,9 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoAssalariadoTeste.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoComissionado.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/AdicionarEmpregadoComissionadoTeste.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/DeletarEmpregadoTeste.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeDeletarEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/DeletarEmpregadoTeste.java" />
       </list>
     </option>
   </component>
@@ -1091,7 +1068,7 @@
       <updated>1480332771418</updated>
       <workItem from="1480332775125" duration="2347000" />
       <workItem from="1480682607972" duration="9564000" />
-      <workItem from="1481021512073" duration="1293000" />
+      <workItem from="1481021512073" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary="Continuacao da Iteracao 1">
       <created>1480938152881</created>
@@ -1107,7 +1084,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480938469113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delecao de empregado">
+      <created>1481022819090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1481022819090</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1143,7 +1127,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13204000" />
+    <option name="totallyTimeSpent" value="13316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -1213,7 +1197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Continuacao da Iteracao 1" />
     <MESSAGE value="refatoracao de pacotes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="refatoracao de pacotes&#10;" />
+    <MESSAGE value="Delecao de empregado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delecao de empregado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1473,11 +1458,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/empregado/DeletarEmpregadoTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
