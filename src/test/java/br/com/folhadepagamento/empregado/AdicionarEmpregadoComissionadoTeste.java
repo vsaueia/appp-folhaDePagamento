@@ -6,6 +6,7 @@ import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoComissionado;
 import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
 import br.com.folhadepagamento.pagamento.metodo.PagamentoDiretoAoEmpregado;
+import br.com.folhadepagamento.servico.AdicionarEmpregadoComissionado;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -22,7 +23,7 @@ public class AdicionarEmpregadoComissionadoTeste {
         int empregadoId = 2;
 
         AdicionarEmpregadoComissionado transacao =
-                new AdicionarEmpregadoComissionado(empregadoId, "Bob", "Home", BigDecimal.valueOf(2500));
+                new AdicionarEmpregadoComissionado(empregadoId, "Bob", "Home", BigDecimal.valueOf(2500), BigDecimal.ONE);
         transacao.executar();
 
         Empregado empregado = FolhaDePagamentoDatabase.buscarEmpregado(empregadoId);

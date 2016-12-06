@@ -6,6 +6,7 @@ import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoAssalariado;
 import br.com.folhadepagamento.pagamento.metodo.PagamentoDiretoAoEmpregado;
 import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
+import br.com.folhadepagamento.servico.AdicionarEmpregadoAssalariado;
 import org.junit.Assert;
 import org.junit.Test;
 

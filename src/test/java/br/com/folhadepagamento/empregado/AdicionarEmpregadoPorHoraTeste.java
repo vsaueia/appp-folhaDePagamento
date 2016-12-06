@@ -6,6 +6,7 @@ import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoPorHora;
 import br.com.folhadepagamento.pagamento.metodo.PagamentoDiretoAoEmpregado;
 import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
+import br.com.folhadepagamento.servico.AdicionarEmpregadoPorHora;
 import org.junit.Assert;
 import org.junit.Test;
 

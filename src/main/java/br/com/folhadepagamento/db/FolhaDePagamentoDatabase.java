@@ -15,4 +15,8 @@ public class FolhaDePagamentoDatabase {
     public static void adicionarEmpregado(int empregadoId, Empregado empregado) {
         baseDeDados.put(empregadoId, empregado);
     }
+
+    public static void removerEmpregado(int empregadoId) {
+        baseDeDados.remove(empregadoId);
+    }
 }
