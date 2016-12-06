@@ -9,10 +9,12 @@ import java.math.BigDecimal;
 
 public class AdicionarEmpregadoComissionado extends TransacaoDeAdicionarEmpregadoAssalariado {
     private final BigDecimal salarioFixo;
+    private final BigDecimal taxaDeComissao;
 
-    public AdicionarEmpregadoComissionado(int empregadoId, String nome, String home, BigDecimal salarioFixo, BigDecimal comissaoPorVenda) {
+    public AdicionarEmpregadoComissionado(int empregadoId, String nome, String home, BigDecimal salarioFixo, BigDecimal taxaDeComissao) {
         super(empregadoId, nome, home);
         this.salarioFixo = salarioFixo;
+        this.taxaDeComissao = taxaDeComissao;
     }
 
     protected ClassificacaoDePagamento construirClassificacao() {
