@@ -1,6 +1,7 @@
-package br.com.folhadepagamento.empregado;
+package br.com.folhadepagamento.servico;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
+import br.com.folhadepagamento.empregado.Empregado;
 import br.com.folhadepagamento.pagamento.agendamento.AgendamentoMensal;
 import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoAssalariado;
 import br.com.folhadepagamento.pagamento.metodo.PagamentoDiretoAoEmpregado;

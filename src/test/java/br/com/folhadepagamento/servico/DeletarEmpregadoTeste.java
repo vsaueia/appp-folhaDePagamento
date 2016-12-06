@@ -1,6 +1,7 @@
-package br.com.folhadepagamento.empregado;
+package br.com.folhadepagamento.servico;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
+import br.com.folhadepagamento.empregado.Empregado;
 import br.com.folhadepagamento.servico.AdicionarEmpregadoComissionado;
 import br.com.folhadepagamento.servico.TransacaoDeDeletarEmpregado;
 import org.junit.Assert;

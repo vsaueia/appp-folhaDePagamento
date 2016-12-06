@@ -1,5 +1,6 @@
-package br.com.folhadepagamento.empregado;
+package br.com.folhadepagamento.servico;
 
+import br.com.folhadepagamento.empregado.Empregado;
 import br.com.folhadepagamento.pagamento.agendamento.AgendamentoQuinzenal;
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
 import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
