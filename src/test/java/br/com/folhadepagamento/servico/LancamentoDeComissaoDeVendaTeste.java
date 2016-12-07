@@ -37,4 +37,25 @@ public class LancamentoDeComissaoDeVendaTeste {
         RelatorioDeVenda relatorioDeVenda = comissionado.obterRelatorioDeVenda(dia);
         Assert.assertThat(relatorioDeVenda.obterValorDaVenda(), is(valorDaVenda));
     }
+
+    @Test(expected = RuntimeException.class)
+    public void nao_deve_lancar_venda_para_empregado_nao_comissionado() {
+        int empregadoId = 76;
+        AdicionarEmpregadoAssalariado transacao =
+                new AdicionarEmpregadoAssalariado(empregadoId, "Vinicius", "Home", BigDecimal.valueOf(1555.25));
+        transacao.executar();
+
+        LocalDate dia = LocalDate.of(2016, 7, 31);
+        BigDecimal valorDaVenda = BigDecimal.valueOf(10000);
+        LancamentoDeVenda transacaoDeVenda = new LancamentoDeVenda(dia, valorDaVenda, empregadoId);
+        transacaoDeVenda.executar();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void nao_deve_lancar_venda_para_empregado_nao_cadastrado() {
+        LocalDate dia = LocalDate.of(2016, 7, 31);
+        BigDecimal valorDaVenda = BigDecimal.valueOf(10000);
+        LancamentoDeVenda transacaoDeVenda = new LancamentoDeVenda(dia, valorDaVenda, -1);
+        transacaoDeVenda.executar();
+    }
 }

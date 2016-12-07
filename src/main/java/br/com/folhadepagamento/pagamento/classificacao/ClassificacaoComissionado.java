@@ -4,10 +4,12 @@ import br.com.folhadepagamento.empregado.RelatorioDeVenda;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ClassificacaoComissionado implements ClassificacaoDePagamento {
     private BigDecimal salarioFixo;
-
+    private Map<LocalDate, RelatorioDeVenda> relatoriosDeVenda = new HashMap<>();
     public ClassificacaoComissionado(BigDecimal salarioFixo) {
         this.salarioFixo = salarioFixo;
     }
@@ -17,6 +19,10 @@ public class ClassificacaoComissionado implements ClassificacaoDePagamento {
     }
 
     public RelatorioDeVenda obterRelatorioDeVenda(LocalDate dia) {
-        return null;
+        return relatoriosDeVenda.get(dia);
+    }
+
+    public void adicionarRelatorioDeVendas(RelatorioDeVenda relatorioDeVenda) {
+        relatoriosDeVenda.put(relatorioDeVenda.obterDia(), relatorioDeVenda);
     }
 }
