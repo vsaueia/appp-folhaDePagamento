@@ -1,19 +1,15 @@
 package br.com.folhadepagamento.servico;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
-import br.com.folhadepagamento.empregado.CartaoDePonto;
 import br.com.folhadepagamento.empregado.Empregado;
 import br.com.folhadepagamento.empregado.RelatorioDeVenda;
 import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoComissionado;
-import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
-import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoPorHora;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.hamcrest.core.Is.is;

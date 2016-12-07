@@ -11,6 +11,7 @@ public class Empregado {
     private ClassificacaoDePagamento classificacaoDePagamento;
     private AgendamentoDePagamento agendamentoDePagamento;
     private MetodoDePagamento metodoDePagamento;
+    private Afiliacao afiliacao;
 
     public Empregado(int empresadoId, String nome, String endereco) {
         this.empregadoId = empresadoId;
@@ -44,6 +45,14 @@ public class Empregado {
 
     public MetodoDePagamento obterMetodoDePagamento() {
         return metodoDePagamento;
+    }
+
+    public void criarAfiliacao(AfiliacaoEmSindicato afiliacaoSindicato) {
+        this.afiliacao = afiliacaoSindicato;
+    }
+
+    public Afiliacao obterAfiliacao() {
+        return this.afiliacao;
     }
 }
 
