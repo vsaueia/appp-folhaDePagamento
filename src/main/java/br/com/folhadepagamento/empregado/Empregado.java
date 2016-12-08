@@ -19,7 +19,7 @@ public class Empregado {
         this.endereco = endereco;
     }
 
-    public String getNome() {
+    public String obterNome() {
         return nome;
     }
 
@@ -53,6 +53,10 @@ public class Empregado {
 
     public Afiliacao obterAfiliacao() {
         return this.afiliacao;
+    }
+
+    public void alterarNome(String nome) {
+        this.nome = nome;
     }
 }
 

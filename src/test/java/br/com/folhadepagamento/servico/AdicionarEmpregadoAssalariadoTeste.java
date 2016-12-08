@@ -7,7 +7,6 @@ import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoAssalariado;
 import br.com.folhadepagamento.pagamento.metodo.PagamentoDiretoAoEmpregado;
 import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
-import br.com.folhadepagamento.servico.AdicionarEmpregadoAssalariado;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -31,7 +30,7 @@ public class AdicionarEmpregadoAssalariadoTeste {
         AgendamentoDePagamento agendamentoMensal = empregado.obterAgendamentoDePagamento();
         MetodoDePagamento metodoDePagamento = empregado.obterMetodoDePagamento();
 
-        Assert.assertEquals("Bob", empregado.getNome());
+        Assert.assertEquals("Bob", empregado.obterNome());
         assertThat(classificacaoDePagamento.obterSalario(), is(BigDecimal.valueOf(1000)));
         assertTrue(agendamentoMensal instanceof AgendamentoMensal);
         assertTrue(metodoDePagamento instanceof PagamentoDiretoAoEmpregado);
