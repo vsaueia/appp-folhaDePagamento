@@ -9,13 +9,20 @@ import java.util.Map;
 
 public class ClassificacaoComissionado implements ClassificacaoDePagamento {
     private BigDecimal salarioFixo;
+    private BigDecimal taxaDeComissao;
     private Map<LocalDate, RelatorioDeVenda> relatoriosDeVenda = new HashMap<>();
-    public ClassificacaoComissionado(BigDecimal salarioFixo) {
+
+    public ClassificacaoComissionado(BigDecimal salarioFixo, BigDecimal taxaDeComissao) {
         this.salarioFixo = salarioFixo;
+        this.taxaDeComissao = taxaDeComissao;
     }
 
     public BigDecimal obterSalarioFixo() {
         return this.salarioFixo;
+    }
+
+    public BigDecimal obterTaxaDeComisaso() {
+        return this.taxaDeComissao;
     }
 
     public RelatorioDeVenda obterRelatorioDeVenda(LocalDate dia) {

@@ -31,7 +31,7 @@ public class AdicionarEmpregadoPorHoraTeste {
         MetodoDePagamento metodoDePagamento = empregado.obterMetodoDePagamento();
 
         Assert.assertEquals("Bob", empregado.obterNome());
-        assertThat(classificacaoDePagamento.obterValorPorHora(), is(BigDecimal.valueOf(25)));
+        assertThat(classificacaoDePagamento.obterSalarioPorHora(), is(BigDecimal.valueOf(25)));
         assertTrue(agendamento instanceof AgendamentoSemanal);
         assertTrue(metodoDePagamento instanceof PagamentoDiretoAoEmpregado);
     }

@@ -7,22 +7,24 @@ import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
 
 import java.math.BigDecimal;
 
-public class AdicionarEmpregadoComissionado extends TransacaoDeAdicionarEmpregadoAssalariado {
-    private final BigDecimal salarioFixo;
-    private final BigDecimal taxaDeComissao;
+public class TransformarEmpregadoEmComissionado extends TransacaoDeAlterarClassificacaoDoEmpregado {
 
-    public AdicionarEmpregadoComissionado(int empregadoId, String nome, String home, BigDecimal salarioFixo,
-                                          BigDecimal taxaDeComissao) {
-        super(empregadoId, nome, home);
+    private BigDecimal salarioFixo;
+    private BigDecimal taxaDeComissao;
+
+    public TransformarEmpregadoEmComissionado(int empregadoId, BigDecimal salarioFixo, BigDecimal taxaDeComissao) {
+        super(empregadoId);
         this.salarioFixo = salarioFixo;
         this.taxaDeComissao = taxaDeComissao;
     }
 
-    protected ClassificacaoDePagamento construirClassificacao() {
+    @Override
+    protected ClassificacaoDePagamento novaClassificao() {
         return new ClassificacaoComissionado(this.salarioFixo, this.taxaDeComissao);
     }
 
-    protected AgendamentoDePagamento construirAgendamento() {
+    @Override
+    protected AgendamentoDePagamento novoAgendamento() {
         return new AgendamentoQuinzenal();
     }
 }

@@ -15,7 +15,7 @@ public class ClassificacaoPorHora implements ClassificacaoDePagamento {
         this.valorPorHora = valorPorHora;
     }
 
-    public BigDecimal obterValorPorHora() {
+    public BigDecimal obterSalarioPorHora() {
         return this.valorPorHora;
     }
 

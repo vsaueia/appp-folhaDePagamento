@@ -33,6 +33,7 @@ public class AdicionarEmpregadoComissionadoTeste {
 
         Assert.assertEquals("Bob", empregado.obterNome());
         assertThat(classificacaoDePagamento.obterSalarioFixo(), is(BigDecimal.valueOf(2500)));
+        assertThat(classificacaoDePagamento.obterTaxaDeComisaso(), is(BigDecimal.ONE));
         assertTrue(agendamento instanceof AgendamentoQuinzenal);
         assertTrue(metodoDePagamento instanceof PagamentoDiretoAoEmpregado);
     }
