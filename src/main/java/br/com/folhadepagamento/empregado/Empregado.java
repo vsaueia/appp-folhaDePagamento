@@ -47,8 +47,8 @@ public class Empregado {
         return metodoDePagamento;
     }
 
-    public void criarAfiliacao(AfiliacaoEmSindicato afiliacaoSindicato) {
-        this.afiliacao = afiliacaoSindicato;
+    public void criarAfiliacao(Afiliacao afiliacao) {
+        this.afiliacao = afiliacao;
     }
 
     public Afiliacao obterAfiliacao() {

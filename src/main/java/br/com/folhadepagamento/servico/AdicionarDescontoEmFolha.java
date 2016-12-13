@@ -1,10 +1,9 @@
 package br.com.folhadepagamento.servico;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
-import br.com.folhadepagamento.empregado.AfiliacaoEmSindicato;
+import br.com.folhadepagamento.empregado.AfiliacaoSindical;
 import br.com.folhadepagamento.empregado.DescontoEmFolha;
 import br.com.folhadepagamento.empregado.Empregado;
-import org.omg.SendingContext.RunTime;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -25,11 +24,11 @@ public class AdicionarDescontoEmFolha implements Transacao {
     public void executar() {
         Empregado empregado = FolhaDePagamentoDatabase.buscarEmpregadoPorAfiliacao(afiliacaoId);
         if (empregado != null) {
-            AfiliacaoEmSindicato afiliacaoEmSindicato;
-            if (empregado.obterAfiliacao() instanceof AfiliacaoEmSindicato) {
-                afiliacaoEmSindicato = (AfiliacaoEmSindicato) empregado.obterAfiliacao();
-                if (afiliacaoEmSindicato != null) {
-                    afiliacaoEmSindicato.adicionarDesconto(new DescontoEmFolha(dia, valor));
+            AfiliacaoSindical afiliacaoSindical;
+            if (empregado.obterAfiliacao() instanceof AfiliacaoSindical) {
+                afiliacaoSindical = (AfiliacaoSindical) empregado.obterAfiliacao();
+                if (afiliacaoSindical != null) {
+                    afiliacaoSindical.adicionarDesconto(new DescontoEmFolha(dia, valor));
                 }
             } else {
                 throw new RuntimeException("Não é possível descontar a taxa do sindicato " +
