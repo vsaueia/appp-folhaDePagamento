@@ -27,4 +27,8 @@ public class AfiliacaoSindical implements Afiliacao {
     public BigDecimal obterTaxa() {
         return taxa;
     }
+
+    public int obterMembroId() {
+        return membroId;
+    }
 }

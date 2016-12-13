@@ -28,4 +28,8 @@ public class FolhaDePagamentoDatabase {
     public static Empregado buscarEmpregadoPorAfiliacao(int afiliacaoId) {
         return membrosDeAfiliacao.get(afiliacaoId);
     }
+
+    public static void removerMembro(int membroId) {
+        membrosDeAfiliacao.remove(membroId);
+    }
 }
