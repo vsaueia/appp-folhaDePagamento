@@ -4,6 +4,9 @@ import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
 import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
 
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
 public class Empregado {
     private int empregadoId;
     private String nome;
@@ -57,6 +60,24 @@ public class Empregado {
 
     public void alterarNome(String nome) {
         this.nome = nome;
+    }
+
+    public boolean ehDiaDePagamento(LocalDate diaDoPagamento) {
+        return agendamentoDePagamento.ehDiaDoPagamento(diaDoPagamento);
+    }
+
+    public Integer obterId() {
+        return empregadoId;
+    }
+
+    public void receberPagamento(ChequeSalario chequeSalario) {
+        BigDecimal salarioBruto = classificacaoDePagamento.calcularPagamento(chequeSalario);
+        BigDecimal descontos = afiliacao.calcularDescontos(chequeSalario);
+        BigDecimal salarioLiquido = salarioBruto.subtract(descontos);
+        chequeSalario.informarSalarioBruto(salarioBruto);
+        chequeSalario.informarDescontos(descontos);
+        chequeSalario.informarSalarioLiquido(salarioLiquido);
+        metodoDePagamento.pagar(chequeSalario);
     }
 }
 

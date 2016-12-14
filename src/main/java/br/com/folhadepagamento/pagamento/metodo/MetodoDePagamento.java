@@ -1,4 +1,7 @@
 package br.com.folhadepagamento.pagamento.metodo;
 
-public class MetodoDePagamento {
+import br.com.folhadepagamento.empregado.ChequeSalario;
+
+public interface MetodoDePagamento {
+    void pagar(ChequeSalario chequeSalario);
 }

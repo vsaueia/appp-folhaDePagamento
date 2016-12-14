@@ -1,5 +1,6 @@
 package br.com.folhadepagamento.pagamento.classificacao;
 
+import br.com.folhadepagamento.empregado.ChequeSalario;
 import br.com.folhadepagamento.empregado.RelatorioDeVenda;
 
 import java.math.BigDecimal;
@@ -31,5 +32,10 @@ public class ClassificacaoComissionado implements ClassificacaoDePagamento {
 
     public void adicionarRelatorioDeVendas(RelatorioDeVenda relatorioDeVenda) {
         relatoriosDeVenda.put(relatorioDeVenda.obterDia(), relatorioDeVenda);
+    }
+
+    @Override
+    public BigDecimal calcularPagamento(ChequeSalario chequeSalario) {
+        return BigDecimal.ZERO;
     }
 }

@@ -3,7 +3,9 @@ package br.com.folhadepagamento.db;
 import br.com.folhadepagamento.empregado.Empregado;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class FolhaDePagamentoDatabase {
     private static Map<Integer, Empregado> empregados = new HashMap<>();
@@ -31,5 +33,9 @@ public class FolhaDePagamentoDatabase {
 
     public static void removerMembro(int membroId) {
         membrosDeAfiliacao.remove(membroId);
+    }
+
+    public static List<Empregado> buscarTodosOsEmpregados() {
+        return empregados.entrySet().stream().map(entry -> entry.getValue()).collect(Collectors.toList());
     }
 }

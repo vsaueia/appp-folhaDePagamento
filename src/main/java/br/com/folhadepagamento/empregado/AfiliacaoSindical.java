@@ -31,4 +31,9 @@ public class AfiliacaoSindical implements Afiliacao {
     public int obterMembroId() {
         return membroId;
     }
+
+    @Override
+    public BigDecimal calcularDescontos(ChequeSalario chequeSalario) {
+        return BigDecimal.ZERO;
+    }
 }

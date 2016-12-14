@@ -1,6 +1,7 @@
 package br.com.folhadepagamento.pagamento.classificacao;
 
 import br.com.folhadepagamento.empregado.CartaoDePonto;
+import br.com.folhadepagamento.empregado.ChequeSalario;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -25,5 +26,10 @@ public class ClassificacaoPorHora implements ClassificacaoDePagamento {
 
     public void adicionarCartaoPonto(CartaoDePonto cartaoDePonto) {
         this.cartoesDePonto.put(cartaoDePonto.obterDia(), cartaoDePonto);
+    }
+
+    @Override
+    public BigDecimal calcularPagamento(ChequeSalario chequeSalario) {
+        return BigDecimal.ZERO;
     }
 }

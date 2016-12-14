@@ -1,4 +1,10 @@
 package br.com.folhadepagamento.pagamento.metodo;
 
-public class PagamentoDiretoAoEmpregado extends MetodoDePagamento {
+import br.com.folhadepagamento.empregado.ChequeSalario;
+
+public class PagamentoDiretoAoEmpregado implements MetodoDePagamento {
+    @Override
+    public void pagar(ChequeSalario chequeSalario) {
+        chequeSalario.adicionarCampo("Disposicao", "Direto");
+    }
 }

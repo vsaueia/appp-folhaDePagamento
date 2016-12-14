@@ -1,5 +1,7 @@
 package br.com.folhadepagamento.pagamento.classificacao;
 
+import br.com.folhadepagamento.empregado.ChequeSalario;
+
 import java.math.BigDecimal;
 
 public class ClassificacaoAssalariado implements ClassificacaoDePagamento{
@@ -11,6 +13,11 @@ public class ClassificacaoAssalariado implements ClassificacaoDePagamento{
     }
 
     public BigDecimal obterSalario() {
+        return salario;
+    }
+
+    @Override
+    public BigDecimal calcularPagamento(ChequeSalario chequeSalario) {
         return salario;
     }
 }
