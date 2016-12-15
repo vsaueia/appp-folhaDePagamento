@@ -1,6 +1,7 @@
 package br.com.folhadepagamento.servico;
 
 import br.com.folhadepagamento.empregado.ChequeSalario;
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
@@ -26,5 +27,19 @@ public class PagamentoDeUmEmpregadoAssalariadoTeste {
         assertEquals("Direto", chequeSalario.obterCampos().get("Disposicao"));
         assertEquals(BigDecimal.ZERO, chequeSalario.obterDescontos());
         assertEquals(salario, chequeSalario.obterSalarioLiquido());
+    }
+
+    @Test
+    public void nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada() {
+        int empregadoId = 1;
+        BigDecimal salario = BigDecimal.valueOf(10000);
+        AdicionarEmpregadoAssalariado adicionarEmpregadoAssalariado = new AdicionarEmpregadoAssalariado(empregadoId, "Vinicius",
+                "Home", salario);
+        adicionarEmpregadoAssalariado.executar();
+        LocalDate diaDoPagamento = LocalDate.of(2011, 11, 29);
+        TransacaoDePagamentoDeFolhas pagamento = new TransacaoDePagamentoDeFolhas(diaDoPagamento);
+        pagamento.executar();
+        ChequeSalario chequeSalario = pagamento.obterChequeSalario(empregadoId);
+        Assert.assertNull(chequeSalario);
     }
 }

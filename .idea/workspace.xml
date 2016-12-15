@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6006e12a-6b20-425e-b44a-32e7c36df53b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/ChequeSalario.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDePagamentoDeFolhas.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.class" afterPath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/Empregado.class" afterPath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/Empregado.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Afiliacao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Afiliacao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AfiliacaoSindical.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AfiliacaoSindical.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/SemAfiliacao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/SemAfiliacao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoDePagamento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoMensal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoMensal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoQuinzenal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoQuinzenal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoSemanal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/agendamento/AgendamentoSemanal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoAssalariado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoAssalariado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoDePagamento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/MetodoDePagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/MetodoDePagamento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/PagamentoDiretoAoEmpregado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/PagamentoDiretoAoEmpregado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" />
     </list>
     <ignored path="appp-folhaDePagamento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +39,8 @@
       <file leaf-file-name="PagamentoDeUmEmpregadoAssalariadoTeste.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="357">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoAssalariado.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -77,8 +61,8 @@
       <file leaf-file-name="TransacaoDeAdicionarEmpregadoAssalariado.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,10 +71,14 @@
       <file leaf-file-name="TransacaoDePagamentoDeFolhas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDePagamentoDeFolhas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,12 +87,9 @@
       <file leaf-file-name="SemAfiliacao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/SemAfiliacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="102">
               <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,11 +97,16 @@
       <file leaf-file-name="ClassificacaoPorHora.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="323">
               <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#520#521#0" expanded="false" />
+                <element signature="e#568#569#0" expanded="false" />
+                <element signature="e#615#616#0" expanded="false" />
+                <element signature="e#655#656#0" expanded="false" />
+                <element signature="e#725#726#0" expanded="false" />
+                <element signature="e#776#777#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -125,11 +115,16 @@
       <file leaf-file-name="ClassificacaoComissionado.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="425">
               <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
-                <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#739#740#0" expanded="false" />
+                <element signature="e#778#779#0" expanded="false" />
+                <element signature="e#825#826#0" expanded="false" />
+                <element signature="e#867#868#0" expanded="false" />
+                <element signature="e#935#936#0" expanded="false" />
+                <element signature="e#984#985#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -138,27 +133,9 @@
       <file leaf-file-name="Empregado.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1540#1541#0" expanded="true" />
-                <element signature="e#1585#1586#0" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
-                <element signature="e#1682#1683#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1779#1780#0" expanded="true" />
-                <element signature="e#1820#1821#0" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1901#1902#0" expanded="true" />
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#2108#2109#0" expanded="true" />
-                <element signature="e#2142#2143#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="782">
+              <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,8 +153,8 @@
       <file leaf-file-name="AfiliacaoSindical.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AfiliacaoSindical.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
@@ -260,12 +237,12 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/MetodoDePagamento.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/PagamentoDiretoAoEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/ChequeSalario.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AfiliacaoSindical.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/SemAfiliacao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" />
       </list>
     </option>
   </component>
@@ -636,33 +613,7 @@
       <recent name="br.com.folhadepagamento.db" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes">
-    <configuration default="false" name="TransformarEmEmpregadoComissionado.deve_tornar_um_empregado_como_por_hora" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.com.folhadepagamento.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="appp-folhaDePagamento" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.com.folhadepagamento.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.folhadepagamento.servico.TransformarEmEmpregadoComissionado" />
-      <option name="METHOD_NAME" value="deve_tornar_um_empregado_como_por_hora" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada">
     <configuration default="false" name="AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -754,6 +705,32 @@
       <option name="PACKAGE_NAME" value="br.com.folhadepagamento.servico" />
       <option name="MAIN_CLASS_NAME" value="br.com.folhadepagamento.servico.PagamentoDeUmEmpregadoAssalariadoTeste" />
       <option name="METHOD_NAME" value="deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.folhadepagamento.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="appp-folhaDePagamento" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.folhadepagamento.servico" />
+      <option name="MAIN_CLASS_NAME" value="br.com.folhadepagamento.servico.PagamentoDeUmEmpregadoAssalariadoTeste" />
+      <option name="METHOD_NAME" value="nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1116,19 +1093,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TransformarEmEmpregadoComissionado.deve_tornar_um_empregado_como_por_hora" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TransformarEmEmpregadoComissionado.deve_tornar_um_empregado_como_por_hora" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" />
       </list>
     </recent_temporary>
   </component>
@@ -1150,7 +1127,8 @@
       <workItem from="1481205142360" duration="3902000" />
       <workItem from="1481627589063" duration="87000" />
       <workItem from="1481627815354" duration="4556000" />
-      <workItem from="1481716016047" duration="4037000" />
+      <workItem from="1481716016047" duration="4805000" />
+      <workItem from="1481802467641" duration="190000" />
     </task>
     <task id="LOCAL-00001" summary="Continuacao da Iteracao 1">
       <created>1480938152881</created>
@@ -1236,13 +1214,17 @@
       <option name="project" value="LOCAL" />
       <updated>1481641234000</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Calcular pagamento de empregado assalariado">
+      <created>1481720863527</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1481720863527</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PagamentoDeUmEmpregadoAssalariadoTeste_deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes - 2016.12.14 at 09h 18m 10s.xml">
-      <configuration name="PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PagamentoDeUmEmpregadoAssalariadoTeste_deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes - 2016.12.14 at 10h 04m 32s.xml">
       <configuration name="PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" configurationId="JUnit" />
     </history-entry>
@@ -1258,6 +1240,9 @@
     <history-entry file="PagamentoDeUmEmpregadoAssalariadoTeste_deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes - 2016.12.14 at 10h 06m 31s.xml">
       <configuration name="PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PagamentoDeUmEmpregadoAssalariadoTeste_nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada - 2016.12.15 at 08h 50m 32s.xml">
+      <configuration name="PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TransacaoDeTransformarEmEmpregadoAssalariadoTeste_deve_transformar_um_empregado_em_assalariado - 2016.12.08 at 11h 38m 19s.xml">
       <configuration name="TransacaoDeTransformarEmEmpregadoAssalariadoTeste.deve_transformar_um_empregado_em_assalariado" configurationId="JUnit" />
     </history-entry>
@@ -1272,7 +1257,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34364000" />
+    <option name="totallyTimeSpent" value="35322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1283,13 +1268,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.49448818" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10364583" sideWeight="0.49448818" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.5055118" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1300,9 +1284,36 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10364583" sideWeight="0.5055118" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.49448818" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.5055118" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1331,18 +1342,12 @@
     <MESSAGE value="Alteracao de classificacao do usuario" />
     <MESSAGE value="Tornar empregado membro de sindicato" />
     <MESSAGE value="Tornar empregado sem afiliacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tornar empregado sem afiliacao" />
+    <MESSAGE value="Calcular pagamento de empregado assalariado" />
+    <MESSAGE value="Caso de teste para não deixar pagar assalariado em data errada&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso de teste para não deixar pagar assalariado em data errada&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -1391,9 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="29" column="105" lean-forward="false" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1422,9 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,11 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,13 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#906#907#0" expanded="false" />
-            <element signature="e#975#976#0" expanded="false" />
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1093#1094#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1476,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,11 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="112" lean-forward="false" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1037#1038#0" expanded="false" />
-            <element signature="e#1086#1087#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1496,7 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,11 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1102#1103#0" expanded="false" />
-            <element signature="e#1151#1152#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1516,7 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,11 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#949#950#0" expanded="false" />
-            <element signature="e#996#997#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1543,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,11 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#922#923#0" expanded="false" />
-            <element signature="e#999#1000#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1565,9 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="17" column="112" lean-forward="true" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1575,11 +1535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#331#332#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1587,9 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1597,13 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#485#486#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1611,9 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="38" column="106" lean-forward="true" selection-start-line="38" selection-start-column="106" selection-end-line="38" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1621,10 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1632,10 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1643,11 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1655,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,7 +1591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1671,7 +1598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1679,15 +1605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1695,7 +1612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1703,10 +1619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1714,38 +1626,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AfiliacaoSindical.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="442">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
@@ -1762,43 +1649,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/SemAfiliacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="323">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+            <element signature="e#725#726#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="425">
           <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDePagamentoDeFolhas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#867#868#0" expanded="false" />
+            <element signature="e#935#936#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1811,52 +1695,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#2108#2109#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoAssalariado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDePagamentoDeFolhas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="357">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
