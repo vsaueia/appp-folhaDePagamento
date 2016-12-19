@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6006e12a-6b20-425e-b44a-32e7c36df53b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.class" afterPath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/db/FolhaDePagamentoDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/Empregado.class" afterPath="$PROJECT_DIR$/target/classes/br/com/folhadepagamento/empregado/Empregado.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoPorHoraTeste.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" />
     </list>
     <ignored path="appp-folhaDePagamento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PagamentoDeUmEmpregadoAssalariadoTeste.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PagamentoDeUmEmpregadoAssalariadoTeste.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="364">
+              <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,22 +46,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdicionarEmpregadoAssalariado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/AdicionarEmpregadoAssalariado.java">
+      <file leaf-file-name="PagamentoDeUmEmpregadoPorHoraTeste.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoPorHoraTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransacaoDeAdicionarEmpregadoAssalariado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java">
+      <file leaf-file-name="ClassificacaoPorHora.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="297">
+              <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassificacaoAssalariado.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoAssalariado.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,100 +97,14 @@
       <file leaf-file-name="TransacaoDePagamentoDeFolhas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDePagamentoDeFolhas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="329">
+              <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#556#557#0" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
                 <element signature="e#1158#1159#0" expanded="true" />
                 <element signature="e#1212#1213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SemAfiliacao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/SemAfiliacao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassificacaoPorHora.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#520#521#0" expanded="false" />
-                <element signature="e#568#569#0" expanded="false" />
-                <element signature="e#615#616#0" expanded="false" />
-                <element signature="e#655#656#0" expanded="false" />
-                <element signature="e#725#726#0" expanded="false" />
-                <element signature="e#776#777#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassificacaoComissionado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#739#740#0" expanded="false" />
-                <element signature="e#778#779#0" expanded="false" />
-                <element signature="e#825#826#0" expanded="false" />
-                <element signature="e#867#868#0" expanded="false" />
-                <element signature="e#935#936#0" expanded="false" />
-                <element signature="e#984#985#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Empregado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AfiliacaoSindical.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/AfiliacaoSindical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/LancamentoDeVenda.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/LancamentoDeComissaoDeVendaTeste.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/AdicionarDescontoEmFolha.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/DescontoEmFolha.java" />
@@ -243,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoComissionado.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoPorHoraTeste.java" />
       </list>
     </option>
   </component>
@@ -331,7 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -582,7 +522,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -613,33 +553,7 @@
       <recent name="br.com.folhadepagamento.db" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada">
-    <configuration default="false" name="AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.com.folhadepagamento.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="appp-folhaDePagamento" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.com.folhadepagamento.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.folhadepagamento.servico.AdicionarEmpregadoComissionadoTeste" />
-      <option name="METHOD_NAME" value="deve_adicionar_empregado_comissionado" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PagamentoDeUmEmpregadoPorHoraTeste.deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta">
     <configuration default="false" name="ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -731,6 +645,32 @@
       <option name="PACKAGE_NAME" value="br.com.folhadepagamento.servico" />
       <option name="MAIN_CLASS_NAME" value="br.com.folhadepagamento.servico.PagamentoDeUmEmpregadoAssalariadoTeste" />
       <option name="METHOD_NAME" value="nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PagamentoDeUmEmpregadoPorHoraTeste.deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.folhadepagamento.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="appp-folhaDePagamento" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.folhadepagamento.servico" />
+      <option name="MAIN_CLASS_NAME" value="br.com.folhadepagamento.servico.PagamentoDeUmEmpregadoPorHoraTeste" />
+      <option name="METHOD_NAME" value="deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1093,19 +1033,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoPorHoraTeste.deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AdicionarEmpregadoComissionadoTeste.deve_adicionar_empregado_comissionado" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoPorHoraTeste.deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TransacaoDeDesafiliacaoTeste.deve_desafiliar_um_membro_do_sindicato" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ModificarParaMembroSindicalizadoTeste.deve_modificar_um_empregado_para_ser_um_membro_do_sindicato" />
       </list>
     </recent_temporary>
   </component>
@@ -1128,7 +1068,10 @@
       <workItem from="1481627589063" duration="87000" />
       <workItem from="1481627815354" duration="4556000" />
       <workItem from="1481716016047" duration="4805000" />
-      <workItem from="1481802467641" duration="190000" />
+      <workItem from="1481802467641" duration="838000" />
+      <workItem from="1481888963085" duration="481000" />
+      <workItem from="1481890730794" duration="6000" />
+      <workItem from="1482172073166" duration="2429000" />
     </task>
     <task id="LOCAL-00001" summary="Continuacao da Iteracao 1">
       <created>1480938152881</created>
@@ -1221,13 +1164,17 @@
       <option name="project" value="LOCAL" />
       <updated>1481720863527</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Caso de teste para não deixar pagar assalariado em data errada&#10;">
+      <created>1481802657374</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1481802657374</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PagamentoDeUmEmpregadoAssalariadoTeste_deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes - 2016.12.14 at 10h 04m 32s.xml">
-      <configuration name="PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PagamentoDeUmEmpregadoAssalariadoTeste_deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes - 2016.12.14 at 10h 05m 14s.xml">
       <configuration name="PagamentoDeUmEmpregadoAssalariadoTeste.deve_realizar_o_pagamento_de_um_empregado_assalariado_no_ultimo_dia_do_mes" configurationId="JUnit" />
     </history-entry>
@@ -1243,6 +1190,9 @@
     <history-entry file="PagamentoDeUmEmpregadoAssalariadoTeste_nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada - 2016.12.15 at 08h 50m 32s.xml">
       <configuration name="PagamentoDeUmEmpregadoAssalariadoTeste.nao_deve_realizar_o_pagamento_de_empregado_assalariado_em_data_errada" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PagamentoDeUmEmpregadoPorHoraTeste_deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta - 2016.12.19 at 16h 36m 06s.xml">
+      <configuration name="PagamentoDeUmEmpregadoPorHoraTeste.deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TransacaoDeTransformarEmEmpregadoAssalariadoTeste_deve_transformar_um_empregado_em_assalariado - 2016.12.08 at 11h 38m 19s.xml">
       <configuration name="TransacaoDeTransformarEmEmpregadoAssalariadoTeste.deve_transformar_um_empregado_em_assalariado" configurationId="JUnit" />
     </history-entry>
@@ -1257,7 +1207,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35322000" />
+    <option name="totallyTimeSpent" value="38886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1270,10 +1220,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10364583" sideWeight="0.49448818" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1289,27 +1239,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.49448818" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10364583" sideWeight="0.49448818" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.5055118" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10364583" sideWeight="0.5055118" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1357,13 +1307,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeDeletarEmpregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/CartaoDePonto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1601,13 +1544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoAssalariado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/metodo/MetodoDePagamento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1633,17 +1569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1651,23 +1576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-            <element signature="e#568#569#0" expanded="false" />
-            <element signature="e#615#616#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#776#777#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1675,15 +1583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-            <element signature="e#825#826#0" expanded="false" />
-            <element signature="e#867#868#0" expanded="false" />
-            <element signature="e#935#936#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1691,7 +1590,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -1703,18 +1615,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDeAdicionarEmpregadoAssalariado.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="364">
+          <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/servico/TransacaoDePagamentoDeFolhas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="329">
+          <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#556#557#0" expanded="true" />
@@ -1725,20 +1639,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/empregado/Empregado.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoPorHoraTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+        <state relative-caret-position="220">
+          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/folhadepagamento/servico/PagamentoDeUmEmpregadoAssalariadoTeste.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoAssalariado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="385">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/folhadepagamento/pagamento/classificacao/ClassificacaoPorHora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>
