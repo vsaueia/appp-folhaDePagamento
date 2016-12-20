@@ -53,12 +53,12 @@ public class ClassificacaoPorHora implements ClassificacaoDePagamento {
                     horasExtras = quantidadeDeHoras.subtract(JORNADA_DIARIA_DE_TRABALHO);
                     quantidadeDeHoras = JORNADA_DIARIA_DE_TRABALHO;
                 }
-                horasTotaisTrabalhadas.add(quantidadeDeHoras);
-                horasExtrasTotais.add(horasExtras);
+                horasTotaisTrabalhadas = horasTotaisTrabalhadas.add(quantidadeDeHoras);
+                horasExtrasTotais = horasExtrasTotais.add(horasExtras);
             }
         }
-        BigDecimal salario = horasExtrasTotais.multiply(valorPorHora);
-        BigDecimal salarioDeHorasExtras = horasExtrasTotais.multiply(valorPorHora.multiply(BigDecimal.valueOf(1.3)));
+        BigDecimal salario = horasTotaisTrabalhadas.multiply(valorPorHora);
+        BigDecimal salarioDeHorasExtras = horasExtrasTotais.multiply(valorPorHora.multiply(BigDecimal.valueOf(1.5)));
         return salario.add(salarioDeHorasExtras);
     }
 }
