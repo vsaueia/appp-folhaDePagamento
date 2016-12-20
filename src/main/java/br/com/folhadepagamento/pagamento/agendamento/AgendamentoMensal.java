@@ -11,6 +11,12 @@ public class AgendamentoMensal implements AgendamentoDePagamento {
         return ehUltimoDiaDoMes(dia);
     }
 
+    @Override
+    public LocalDate obterPeriodo(LocalDate inicioDoPeriodo) {
+        // procurar melhor maneira de chegar ao ultimo dia do mes
+        return inicioDoPeriodo.plusMonths(1).withDayOfMonth(1).minusDays(1);
+    }
+
     private boolean ehUltimoDiaDoMes(LocalDate dia) {
         LocalDate ultimoDiaDoMes = dia.with(lastDayOfMonth());
         return dia.compareTo(ultimoDiaDoMes) == 0;

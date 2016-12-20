@@ -8,4 +8,9 @@ public class AgendamentoSemanal implements AgendamentoDePagamento {
     public boolean ehDiaDoPagamento(LocalDate dia) {
         return dia.getDayOfWeek() == DayOfWeek.FRIDAY;
     }
+
+    @Override
+    public LocalDate obterPeriodo(LocalDate inicioDoPeriodo) {
+        return inicioDoPeriodo.minusDays(7);
+    }
 }

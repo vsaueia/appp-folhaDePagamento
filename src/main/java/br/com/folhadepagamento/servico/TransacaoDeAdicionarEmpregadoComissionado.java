@@ -2,6 +2,7 @@ package br.com.folhadepagamento.servico;
 
 import br.com.folhadepagamento.db.FolhaDePagamentoDatabase;
 import br.com.folhadepagamento.empregado.Empregado;
+import br.com.folhadepagamento.empregado.SemAfiliacao;
 import br.com.folhadepagamento.pagamento.agendamento.AgendamentoDePagamento;
 import br.com.folhadepagamento.pagamento.classificacao.ClassificacaoDePagamento;
 import br.com.folhadepagamento.pagamento.metodo.MetodoDePagamento;
@@ -31,6 +32,7 @@ public abstract class TransacaoDeAdicionarEmpregadoComissionado implements Trans
         empregado.informarClassificacaoDePagamento(classificacaoDePagamento);
         empregado.informarAgendamentoDePagamento(agendamentoDePagamento);
         empregado.informarMetodoDePagamento(metodoDePagamento);
+        empregado.criarAfiliacao(new SemAfiliacao());
 
         FolhaDePagamentoDatabase.adicionarEmpregado(empregadoId, empregado);
     }

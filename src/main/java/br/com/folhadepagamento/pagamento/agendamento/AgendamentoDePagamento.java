@@ -4,4 +4,6 @@ import java.time.LocalDate;
 
 public interface AgendamentoDePagamento {
     boolean ehDiaDoPagamento(LocalDate dia);
+
+    LocalDate obterPeriodo(LocalDate inicioDoPeriodo);
 }

@@ -3,6 +3,7 @@ package br.com.folhadepagamento.pagamento.classificacao;
 import br.com.folhadepagamento.empregado.ChequeSalario;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 
 public class ClassificacaoAssalariado implements ClassificacaoDePagamento{
 
@@ -17,7 +18,7 @@ public class ClassificacaoAssalariado implements ClassificacaoDePagamento{
     }
 
     @Override
-    public BigDecimal calcularPagamento(ChequeSalario chequeSalario) {
+    public BigDecimal calcularPagamento(ChequeSalario chequeSalario, LocalDate inicioDoPeriodo, LocalDate fimDoPeriodo) {
         return salario;
     }
 }

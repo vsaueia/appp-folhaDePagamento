@@ -35,16 +35,13 @@ public class ClassificacaoPorHora implements ClassificacaoDePagamento {
     }
 
     @Override
-    public BigDecimal calcularPagamento(ChequeSalario chequeSalario) {
-        LocalDate periodoInicial = chequeSalario.obterDia().minusDays(7);
-
-        List<LocalDate> dias = Stream.iterate(periodoInicial, date -> date.plusDays(1))
-                .limit(ChronoUnit.DAYS.between(periodoInicial, chequeSalario.obterDia()))
-                .collect(Collectors.toList());
+    public BigDecimal calcularPagamento(ChequeSalario chequeSalario, LocalDate inicioDoPeriodo, LocalDate fimDoPeriodo) {
 
         BigDecimal horasTotaisTrabalhadas = BigDecimal.ZERO;
         BigDecimal horasExtrasTotais = BigDecimal.ZERO;
-        for (LocalDate dia : dias) {
+        List<LocalDate> diasNoPeriodo = obterDatasParaCalculoDoPagamento(inicioDoPeriodo, fimDoPeriodo);
+
+        for (LocalDate dia : diasNoPeriodo) {
             CartaoDePonto cartaoDePonto = cartoesDePonto.get(dia);
             if (cartaoDePonto != null) {
                 BigDecimal quantidadeDeHoras = cartaoDePonto.obterQuantidadeDeHoras();
