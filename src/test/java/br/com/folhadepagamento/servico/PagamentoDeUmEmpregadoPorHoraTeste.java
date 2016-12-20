@@ -7,12 +7,15 @@ import org.junit.Test;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class PagamentoDeUmEmpregadoPorHoraTeste {
     @Test
-    public void deve_realizar_o_pagamento_de_um_empregado_por_hora_toda_sexta() {
+    public void empregado_sem_cartao_de_ponto_nao_tem_pagamento() {
         int empregadoId = 2;
         BigDecimal salarioPorHora = BigDecimal.valueOf(15.25);
         AdicionarEmpregadoPorHora adicionarEmpregado = new AdicionarEmpregadoPorHora(empregadoId, "Bill",
@@ -29,10 +32,10 @@ public class PagamentoDeUmEmpregadoPorHoraTeste {
         ChequeSalario chequeSalario = pagamento.obterChequeSalario(empregadoId);
         assertNotNull(chequeSalario);
         assertEquals(diaDoPagamento, chequeSalario.obterDia());
-        assertEquals(salario, chequeSalario.obterSalarioBruto());
+        assertTrue(chequeSalario.obterSalarioBruto().compareTo(salario) == 0);
         assertEquals("Direto", chequeSalario.obterCampos().get("Disposicao"));
         assertEquals(BigDecimal.ZERO, chequeSalario.obterDescontos());
-        assertEquals(salario, chequeSalario.obterSalarioLiquido());
+        assertTrue(chequeSalario.obterSalarioLiquido().compareTo(salario) == 0);
     }
 
 
