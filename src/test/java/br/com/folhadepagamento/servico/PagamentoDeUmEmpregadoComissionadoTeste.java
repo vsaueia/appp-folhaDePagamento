@@ -70,4 +70,28 @@ public class PagamentoDeUmEmpregadoComissionadoTeste {
         assertEquals(BigDecimal.ZERO, chequeSalario.obterDescontos());
         assertTrue(chequeSalario.obterSalarioLiquido().compareTo(salarioEsperado) == 0);
     }
+
+    @Test
+    public void deve_descontar_taxa_sindical_de_empregado_comissionado_vinculado_ao_sindicato() {
+        int empregadoId = 3;
+        BigDecimal salario = BigDecimal.valueOf(100);
+        BigDecimal taxaDeComissao = BigDecimal.valueOf(20);
+        AdicionarEmpregadoComissionado adicionarEmpregado = new AdicionarEmpregadoComissionado(empregadoId, "Lula",
+                "Casa", salario, taxaDeComissao);
+        adicionarEmpregado.executar();
+        int membroId = 17;
+        BigDecimal taxaSindical = BigDecimal.TEN;
+        ModificarParaMembroSindicalizado transacaoDeSindicalizarEmpregado =
+                new ModificarParaMembroSindicalizado(empregadoId, membroId, taxaSindical);
+        transacaoDeSindicalizarEmpregado.executar();
+        LocalDate diaDoPagamento = LocalDate.of(2016, 12, 9);
+        TransacaoDePagamentoDeFolhas pagamento = new TransacaoDePagamentoDeFolhas(diaDoPagamento);
+        pagamento.executar();
+        BigDecimal quantidadeDeSextas = BigDecimal.valueOf(2);
+        ChequeSalario chequeSalario = pagamento.obterChequeSalario(empregadoId);
+        assertTrue(chequeSalario.obterSalarioBruto().compareTo(salario) == 0);
+        assertTrue(chequeSalario.obterDescontos().compareTo(taxaSindical.multiply(quantidadeDeSextas)) == 0);
+        assertTrue(chequeSalario.obterSalarioLiquido()
+                .compareTo(salario.subtract(taxaSindical.multiply(quantidadeDeSextas))) == 0);
+    }
 }
