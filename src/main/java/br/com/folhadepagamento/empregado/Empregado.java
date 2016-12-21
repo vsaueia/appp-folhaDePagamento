@@ -71,8 +71,8 @@ public class Empregado {
     }
 
     public void receberPagamento(ChequeSalario chequeSalario) {
-        LocalDate inicioDoPeriodo = chequeSalario.obterDia();
-        LocalDate fimDoPeriodo = agendamentoDePagamento.obterPeriodo(inicioDoPeriodo);
+        LocalDate fimDoPeriodo = chequeSalario.obterDia();
+        LocalDate  inicioDoPeriodo = agendamentoDePagamento.obterPeriodo(fimDoPeriodo);
         BigDecimal salarioBruto = classificacaoDePagamento.calcularPagamento(chequeSalario, inicioDoPeriodo, fimDoPeriodo);
         BigDecimal descontos = afiliacao.calcularDescontos(chequeSalario);
         BigDecimal salarioLiquido = salarioBruto.subtract(descontos);

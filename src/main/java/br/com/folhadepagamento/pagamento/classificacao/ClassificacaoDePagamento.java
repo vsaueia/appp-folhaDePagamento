@@ -14,7 +14,7 @@ public interface ClassificacaoDePagamento {
 
     default List<LocalDate> obterDatasParaCalculoDoPagamento(LocalDate periodoInicial, LocalDate periodoFinal) {
         return Stream.iterate(periodoInicial, dia -> dia.plusDays(1))
-                .limit(ChronoUnit.DAYS.between(periodoFinal, periodoInicial))
+                .limit(ChronoUnit.DAYS.between(periodoInicial, periodoFinal))
                 .collect(Collectors.toList());
     }
 }
