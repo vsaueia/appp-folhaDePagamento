@@ -1,6 +1,9 @@
 package br.com.folhadepagamento.pagamento.agendamento;
 
 import java.time.LocalDate;
+import java.time.temporal.Temporal;
+import java.time.temporal.TemporalAdjuster;
+import java.time.temporal.TemporalAdjusters;
 
 import static java.time.temporal.TemporalAdjusters.lastDayOfMonth;
 
@@ -13,8 +16,7 @@ public class AgendamentoMensal implements AgendamentoDePagamento {
 
     @Override
     public LocalDate obterPeriodo(LocalDate inicioDoPeriodo) {
-        // procurar melhor maneira de chegar ao ultimo dia do mes
-        return inicioDoPeriodo.plusMonths(1).withDayOfMonth(1).minusDays(1);
+        return inicioDoPeriodo.with(TemporalAdjusters.firstDayOfMonth());
     }
 
     private boolean ehUltimoDiaDoMes(LocalDate dia) {

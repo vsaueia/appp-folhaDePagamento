@@ -74,7 +74,7 @@ public class Empregado {
         LocalDate fimDoPeriodo = chequeSalario.obterDia();
         LocalDate  inicioDoPeriodo = agendamentoDePagamento.obterPeriodo(fimDoPeriodo);
         BigDecimal salarioBruto = classificacaoDePagamento.calcularPagamento(chequeSalario, inicioDoPeriodo, fimDoPeriodo);
-        BigDecimal descontos = afiliacao.calcularDescontos(chequeSalario);
+        BigDecimal descontos = afiliacao.calcularDescontos(chequeSalario, inicioDoPeriodo, fimDoPeriodo);
         BigDecimal salarioLiquido = salarioBruto.subtract(descontos);
         chequeSalario.informarSalarioBruto(salarioBruto);
         chequeSalario.informarDescontos(descontos);

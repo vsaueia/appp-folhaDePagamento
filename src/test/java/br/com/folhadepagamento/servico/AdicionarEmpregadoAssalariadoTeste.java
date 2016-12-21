@@ -35,6 +35,4 @@ public class AdicionarEmpregadoAssalariadoTeste {
         assertTrue(agendamentoMensal instanceof AgendamentoMensal);
         assertTrue(metodoDePagamento instanceof PagamentoDiretoAoEmpregado);
     }
-
-
 }

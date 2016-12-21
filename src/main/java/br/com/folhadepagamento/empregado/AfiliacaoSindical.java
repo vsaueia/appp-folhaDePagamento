@@ -1,5 +1,7 @@
 package br.com.folhadepagamento.empregado;
 
+import br.com.folhadepagamento.util.DateUtil;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.HashMap;
@@ -33,7 +35,8 @@ public class AfiliacaoSindical implements Afiliacao {
     }
 
     @Override
-    public BigDecimal calcularDescontos(ChequeSalario chequeSalario) {
-        return BigDecimal.ZERO;
+    public BigDecimal calcularDescontos(ChequeSalario chequeSalario, LocalDate inicioDoPeriodo, LocalDate fimDoPeriodo) {
+        long quantidadeDeSextasFeirasNoPeriodo = DateUtil.extrairQuantidadeDeSextasFeirasNoPeriodo(inicioDoPeriodo, fimDoPeriodo);
+        return taxa.multiply(BigDecimal.valueOf(quantidadeDeSextasFeirasNoPeriodo));
     }
 }
